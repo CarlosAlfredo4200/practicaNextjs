@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+table{
+  width: 100%;
+}
+
+table, th, td {
+  border-bottom : 1px solid rgba(130, 128, 128, 0.29);
+  border-collapse: collapse;
+  text-align: left;
+  background-color: rgba(235, 235, 235, 0.234);
+   
+}
+
+th, td {
+  padding: 4px 10px;
+   
+}
+
+th{
+  text-align: left;
+}
+
+td{
+  font-size: 12px;
+}
+
+
+.filtros{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
